@@ -1,0 +1,11 @@
+#!/usr/bin/env python
+
+# simple.py
+
+import wx
+
+app = wx.App(False)
+frame = wx.Frame(None, wx.ID_ANY, 'simple.py')
+frame.Show(True)
+
+app.MainLoop()
